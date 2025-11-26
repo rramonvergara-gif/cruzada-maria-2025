@@ -1,10 +1,52 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cruzada-app</title>
+    <!-- Esto asegura que se vea bien en móviles sin zoom extraño -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Cruzada de María 2025</title>
+    
+    <!-- 1. Cargar la Tipografía "Lora" (La letra elegante del peregrino) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- 2. Cargar el Motor de Diseño (Tailwind) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- 3. Configuración para conectar la fuente con el diseño -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              // Aquí le decimos que cuando usemos 'font-serif', use 'Lora'
+              serif: ['Lora', 'serif'],
+              sans: ['ui-sans-serif', 'system-ui', 'sans-serif'],
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-out forwards',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    
+    <style>
+      /* Corrección para evitar el fondo blanco antes de cargar */
+      body {
+        background-color: #020617; /* Un color oscuro profundo */
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
