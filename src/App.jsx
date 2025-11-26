@@ -231,8 +231,8 @@ export default function CapitalDeGraciasApp() {
       {/* --- FONDO FIJO DE MONTAÑAS NOCTURNAS --- */}
       <div className="fixed inset-0 z-0">
         <img 
-          src="\Fondo-cruzada.jpeg"
-          alt="Andes Night Background" 
+          src="\Fondo-cruzada.jpg"
+          alt="Fondo Cruz de Marío" 
           className="w-full h-full object-cover opacity-40"
         />
         <div className="absolute inset-0 bg-slate-950/80 mix-blend-multiply" />
