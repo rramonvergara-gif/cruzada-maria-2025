@@ -394,7 +394,7 @@ export default function CapitalDeGraciasApp() {
                       className="w-full py-3.5 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-bold rounded-xl shadow-lg flex items-center justify-center gap-2 transition-all transform hover:-translate-y-1 active:scale-95"
                     >
                       <Camera size={20} />
-                      Tarjeta para Historia
+                      Compartir en Instagram
                     </button>
 
                     <div className="h-2"></div>
