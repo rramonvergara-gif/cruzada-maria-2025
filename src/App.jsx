@@ -33,9 +33,15 @@ import {
 } from 'lucide-react';
 
 // --- CONFIGURACIÓN DE FIREBASE ---
-const firebaseConfig = typeof __firebase_config !== 'undefined' 
-  ? JSON.parse(__firebase_config) 
-  : { /* Configuración por defecto */ };
+const firebaseConfig = {
+  apiKey: "AIzaSyB1X-AS1r_ZhqPubGFEPEAJ1cIX59H9kNU",
+  authDomain: "cruzada-app-4d26a.firebaseapp.com",
+  projectId: "cruzada-app-4d26a",
+  storageBucket: "cruzada-app-4d26a.firebasestorage.app",
+  messagingSenderId: "466449896774",
+  appId: "1:466449896774:web:485927fa6235ad6357c147",
+  measurementId: "G-3HV2HP8BCH"
+};
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
