@@ -231,7 +231,7 @@ export default function CapitalDeGraciasApp() {
       {/* --- FONDO FIJO DE MONTAÑAS NOCTURNAS --- */}
       <div className="fixed inset-0 z-0">
         <img 
-          src="\Fondo-cruzada.jpg"
+          src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2070&auto=format&fit=crop"
           alt="Fondo Cruz de Marío" 
           className="w-full h-full object-cover opacity-40"
         />
