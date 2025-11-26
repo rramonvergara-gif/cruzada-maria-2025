@@ -231,7 +231,7 @@ export default function CapitalDeGraciasApp() {
       {/* --- FONDO FIJO DE MONTAÑAS NOCTURNAS --- */}
       <div className="fixed inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop" 
+          src="https://www.notion.so/image/attachment%3A47f59a8b-25c8-4a7d-9d57-f131c289c62a%3ACaptura_de_Tela_2025-10-29_as_16.11.58.png?table=block&id=29b9a42b-b717-807f-a22e-f69b8339b6c6&spaceId=b95b38a9-cf48-416a-b437-6b0156208a8e&width=1470&userId=4c3af881-e13e-4e1c-bfc8-86556a2890ae&cache=v2" 
           alt="Andes Night Background" 
           className="w-full h-full object-cover opacity-60"
         />
