@@ -251,7 +251,7 @@ export default function CapitalDeGraciasApp() {
                <img 
                   src="/Icono.png" 
                   alt="Logo Cruzada" 
-                  className="w-19 h-19 object-contain relative z-10 drop-shadow-lg" 
+                  className="w-18 h-18 object-contain relative z-10 drop-shadow-lg" 
               />
               </div>
               <h1 className="text-3xl font-bold tracking-tight text-white font-serif drop-shadow-md leading-tight mt-3">
