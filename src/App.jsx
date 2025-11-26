@@ -258,7 +258,7 @@ export default function CapitalDeGraciasApp() {
                 Cruzada de María
               </h1>
               <span className="text-amber-400/90 font-serif text-lg tracking-[0.2em] mt-1 font-light border-t border-amber-500/30 pt-1 px-4">
-                2025
+                2026
               </span>
             </div>
             {/* Lema Actualizado en el Header */}
