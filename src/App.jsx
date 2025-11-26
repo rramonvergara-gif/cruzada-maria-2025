@@ -158,7 +158,7 @@ export default function CapitalDeGraciasApp() {
     if (!lastContribution) return;
     const emoji = lastContribution.type === 'rosario' ? '📿' : '👣';
     // Usamos window.location.href para obtener el link actual real
-    const currentUrl = window.location.href;
+    const currentUrl = "https://cruzada-maria-2025.vercel.app/";
     const text = `¡He sumado ${lastContribution.amount} ${lastContribution.type === 'rosario' ? 'Rosarios' : 'Km'} al Capital de Gracias de la Cruzada de María! ${emoji}🏔️\n\nPeregrino en Alianza, ¡súmate tú también aquí! 👇\n${currentUrl}`;
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, '_blank');
@@ -175,7 +175,7 @@ export default function CapitalDeGraciasApp() {
       >
         {/* Fondo borroso de la imagen para ambiente */}
         <div className="absolute inset-0 z-0 opacity-40">
-           <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070" className="w-full h-full object-cover blur-md" />
+           <img src="\Fondo-cruzada.jpg" className="w-full h-full object-cover blur-sm" />
         </div>
 
         <div className="relative z-10 w-full max-w-sm bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border border-amber-500/30 rounded-3xl p-8 shadow-2xl flex flex-col items-center text-center aspect-[9/16] justify-center space-y-8 animate-fade-in">
