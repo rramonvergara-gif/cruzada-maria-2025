@@ -233,7 +233,7 @@ export default function CapitalDeGraciasApp() {
         <img 
           src="\Fondo-cruzada.jpg"
           alt="Fondo Cruz de Marío" 
-          className="w-full h-full object-cover opacity-90"
+          className="w-full h-full object-cover opacity-100"
         />
         <div className="absolute inset-0 bg-slate-900/80 mix-blend-multiply" />
         <div className="absolute inset-0 bg-gradient-to-b from-slate-900/90 via-slate-900/80 to-slate-950/95" />
