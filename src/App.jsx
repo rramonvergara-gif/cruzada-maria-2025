@@ -97,7 +97,7 @@ export default function CapitalDeGraciasApp() {
   // 2. Escuchar datos
   useEffect(() => {
     if (!user) return;
-    const q = query(collection(db, 'artifacts', appId, 'public', 'data', 'contributions'));
+    const q = query(collection(db, 'contributions'));
     const unsubscribe = onSnapshot(q, (snapshot) => {
       const docs = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
       docs.sort((a, b) => (b.timestamp?.seconds || 0) - (a.timestamp?.seconds || 0));
@@ -139,7 +139,7 @@ export default function CapitalDeGraciasApp() {
     if (!amount || amount <= 0) return;
     setSubmitting(true);
     try {
-      await addDoc(collection(db, 'artifacts', appId, 'public', 'data', 'contributions'), {
+      await addDoc(collection(db, 'contributions'), {
         amount: parseInt(amount), type, country,
         timestamp: serverTimestamp(), userId: user.uid
       });
