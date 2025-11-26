@@ -181,8 +181,11 @@ export default function CapitalDeGraciasApp() {
         <div className="relative z-10 w-full max-w-sm bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 border border-amber-500/30 rounded-3xl p-8 shadow-2xl flex flex-col items-center text-center aspect-[9/16] justify-center space-y-8 animate-fade-in">
           
           <div className="absolute top-4 right-4">
-             {/* Icono Original MountainSnow */}
-             <MountainSnow className="text-white/30" size={48} strokeWidth={1.5} />
+            <img 
+                src="/Icono.png" 
+                alt="Icono" 
+                className="w-16 h-16 object-contain opacity-50" 
+              />
           </div>
 
           <div>
