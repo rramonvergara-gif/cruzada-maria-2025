@@ -238,8 +238,8 @@ export default function CapitalDeGraciasApp() {
         <div className="absolute inset-0 bg-slate-900/80 mix-blend-multiply" />
         <div className="absolute inset-0 bg-gradient-to-b from-slate-900/90 via-slate-900/80 to-slate-950/95" />
       </div>
-
-      <div className="relative z-10">
+      <div className="relative z-10 flex justify-center w-full min-h-screen">
+        <div className="w-full max-w-md flex flex-col min-h-screen relative"></div>
         
         {/* HEADER */}
         <header className="text-white pt-8 pb-16 px-6 border-b border-white/5">
@@ -482,7 +482,7 @@ export default function CapitalDeGraciasApp() {
       </div>
 
       {/* NAVBAR MOBILE */}
-      <nav className="fixed bottom-4 left-4 right-4 bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-2xl flex justify-around p-1 shadow-2xl z-40">
+     <nav className="fixed bottom-4 left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] max-w-[420px] bg-slate-900/90 backdrop-blur-xl border border-white/10 rounded-2xl flex justify-around p-1 shadow-2xl z-40">
         <button onClick={() => setView('input')} className={`flex flex-col items-center p-3 rounded-xl transition-all w-full ${view === 'input' ? 'text-sky-300 bg-white/10' : 'text-slate-500 hover:text-slate-300'}`}>
           <Activity size={24} strokeWidth={view === 'input' ? 2.5 : 1.5} />
         </button>
@@ -493,7 +493,7 @@ export default function CapitalDeGraciasApp() {
           <BookOpen size={24} strokeWidth={view === 'history' ? 2.5 : 1.5} />
         </button>
       </nav>
-
+            
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
         .font-serif { font-family: 'Lora', serif; }
