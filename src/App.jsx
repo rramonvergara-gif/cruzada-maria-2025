@@ -248,7 +248,11 @@ export default function CapitalDeGraciasApp() {
               <div className="relative">
                 <div className="absolute inset-0 bg-amber-400/20 blur-xl rounded-full"></div>
                 {/* Icono Original MountainSnow */}
-                <MountainSnow size={56} className="text-amber-100 relative z-10" strokeWidth={1.5} />
+               <img 
+                  src="/Icono.png" 
+                  alt="Logo Cruzada" 
+                  className="w-16 h-16 object-contain relative z-10 drop-shadow-lg" 
+              />
               </div>
               <h1 className="text-3xl font-bold tracking-tight text-white font-serif drop-shadow-md leading-tight mt-3">
                 Cruzada de María
