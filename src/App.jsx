@@ -266,7 +266,7 @@ export default function CapitalDeGraciasApp() {
             </div>
             {/* Lema Actualizado en el Header */}
             <p className="text-sky-100/60 text-sm font-medium italic font-serif mt-3 tracking-wide">
-              "Peregrino en Alianza, Levanta el corazón"
+              "¡Cruzada de María, en marcha!"
             </p>
           </div>
         </header>
@@ -307,7 +307,7 @@ export default function CapitalDeGraciasApp() {
                             : 'border-white/5 bg-white/5 text-slate-400 hover:bg-white/10'
                         }`}
                       >
-                        <BookOpen size={24} className={`mb-2 ${type === 'rosario' ? 'text-amber-400' : 'text-slate-500'}`} />
+                        <Diadem size={24} className={`mb-2 ${type === 'rosario' ? 'text-amber-400' : 'text-slate-500'}`} />
                         <span className="font-serif text-sm">Rosarios</span>
                       </button>
 
