@@ -29,7 +29,9 @@ import {
   X,
   Instagram,
   Camera,
-  ArrowLeft
+  ArrowLeft,
+  AlignCenterHorizontal,
+  LucideCrown
 } from 'lucide-react';
 
 // --- CONFIGURACIÓN DE FIREBASE ---
@@ -307,7 +309,7 @@ export default function CapitalDeGraciasApp() {
                             : 'border-white/5 bg-white/5 text-slate-400 hover:bg-white/10'
                         }`}
                       >
-                        <Diadem size={24} className={`mb-2 ${type === 'rosario' ? 'text-amber-400' : 'text-slate-500'}`} />
+                        <LucideCrown size={24} className={`mb-2 ${type === 'rosario' ? 'text-amber-400' : 'text-slate-500'}`} />
                         <span className="font-serif text-sm">Rosarios</span>
                       </button>
 
